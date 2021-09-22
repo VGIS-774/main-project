@@ -68,7 +68,7 @@ MonoBehaviour:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      flipFinalOutput: 1
+      flipFinalOutput: 0
     cameraInputSettings:
       m_OutputResolution:
         m_CustomWidth: 1024
