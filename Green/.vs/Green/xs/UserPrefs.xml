@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{4928930A-4C8A-8A9D-99B6-9FC54B2CE230}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoveBall.cs">
+    <Files>
+      <File FileName="Assets/MoveBall.cs" Line="8" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Green" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="92577740-1d16-4ba8-bf7f-78dfec426b8a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
