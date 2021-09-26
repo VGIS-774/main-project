@@ -37,15 +37,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DisplacementTex:
         m_Texture: {fileID: 2800000, guid: a98f6ff4116df90479c8722c4b133d14, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 8, y: 8}
         m_Offset: {x: 0, y: 1}
+    - _DisplacementTex1:
+        m_Texture: {fileID: 2800000, guid: fb71b7be3ec00b24daf8b6f51d0b3cdd, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 1, y: 1}
+    - _DisplacementTex2:
+        m_Texture: {fileID: 2800000, guid: 0a3ffbad50e25994ba889cfbc040aba0, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 1, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: c59b8c77cbe077f4fb570ebfc8a72829, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -63,11 +71,18 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Displacement: 2.56
+    - _DisplacementBlend: 0.6
     - _DstBlend: 0
+    - _EmissivityBlendFactor: 0.969
+    - _Gain: 0.05
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _MaxDisplacement: 1
+    - _Level: -20
+    - _MaterialEmissivity: 0.931
+    - _MaterialTemperature: 296.57
+    - _MaxDisplacement: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -75,8 +90,9 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StefanBolztmannConstant: 0.000000056704
     - _UVSec: 0
-    - _WaveSpeed: 0.165
+    - _WaveSpeed: 0.039
     - _ZWrite: 1
     - _isBending: 0
     - _isMoving: 1

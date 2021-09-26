@@ -7,33 +7,22 @@
 		_MaterialTemperature("Material temperature in K", Float) = 300.0
 		_Level("Level", Float) = 0.0
 		_Gain("Gain", Float) = 0.0
-
-		/*_PlanckConstant("Planck's Constant", Float) = 0.000000000000000000000006626
-		_BoltzmannConstant("Boltzmann's Constant", Float) = 0.000000000000000000000013806503
-		_LightVelocity("Velocity of light", Float) = 299792458 */
 	}
 
 	SubShader {
 		Pass {
-
-			//Tags{"LightMode" = "ExampleLightModeTag"}
 
 			CGPROGRAM
 
 			#pragma vertex vert  
 			#pragma fragment frag 
 
-			float _Saturation;
 			float _MaterialEmissivity;
 			float _EmissivityBlendFactor;
 			float _StefanBolztmannConstant;
 			float _MaterialTemperature;
 			float _Level;
 			float _Gain;
-
-			/*float _PlanckConstant;
-			float _BoltzmannConstant;
-			float _LightVelocity;*/
 
 			uniform sampler2D _MainTex;
 			uniform float4 _MainTex_ST;
@@ -76,7 +65,6 @@
 
 				// Capping the values to a 0 - 1 range
 				float mappedRadiation = (radiation * _Gain) + _Level;
-				//float monochromaticEmission = ((2 * 3.14 * _PlanckConstant * pow(_LightVelocity, 2) * radiation - 5)/exp((_LightVelocity * _PlanckConstant)/(_BoltzmannConstant * radiation * _MaterialTemperature)) - 1);
 
 				return mappedRadiation;
 			}
