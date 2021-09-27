@@ -1,5 +1,4 @@
 # main-project
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/VGIS-774/main-project/blob/arijus_b/Green/SampleRecordings/video.mp4?raw=true" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/50104866/134901414-6f4dcc6d-6d94-4515-9c7b-e9b5ae4c0fb2.mov
+
