@@ -24,13 +24,17 @@ namespace UnityEngine.Recorder.Examples
         RecorderController m_RecorderController;
         public bool m_RecordAudio = true;
         public bool m_RecordVideo = true;
+
+        public int width = 384;
+        public int height = 288;
+
         internal MovieRecorderSettings m_Settings = null;
 
         public FileInfo OutputFile
         {
             get
             {
-                var fileName = m_Settings.OutputFile + ".mp4";
+                var fileName = m_Settings.OutputFile + ".mov";
                 return new FileInfo(fileName);
             }
         }
@@ -55,13 +59,13 @@ namespace UnityEngine.Recorder.Examples
             m_Settings.Enabled = true;
 
             // This example performs an MP4 recording
-            m_Settings.OutputFormat = MovieRecorderSettings.VideoRecorderOutputFormat.MP4;
+            m_Settings.OutputFormat = MovieRecorderSettings.VideoRecorderOutputFormat.MOV;
             m_Settings.VideoBitRateMode = VideoBitrateMode.High;
 
             m_Settings.ImageInputSettings = new GameViewInputSettings
             {
-                OutputWidth = 320,
-                OutputHeight = 224
+                OutputWidth = width,
+                OutputHeight = height
             };
 
             m_Settings.AudioInputSettings.PreserveAudio = m_RecordAudio;

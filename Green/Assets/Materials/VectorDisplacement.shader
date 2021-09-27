@@ -82,25 +82,42 @@ Shader "Custom/VectorDisplacement"
             }
 
             float4 frag(vertexOutput i) : COLOR{
+                float time;
+
+                if (_isMoving) {
+                    time = _Time.y;
+                }
+                else {
+                    time = 0.0;
+                }
+
                 // Looking up the pixel values for a vertex based on the UV map
-                float4 col = tex2D(_DisplacementTex1, _DisplacementTex1_ST * i.texcoord.xy + _DisplacementTex1_ST.zw);
+                float4 col1 = tex2D(_DisplacementTex1, _DisplacementTex1_ST * i.texcoord.xy + (_DisplacementTex1_ST.zw * (_WaveSpeed * time)));
+                float4 col2 = tex2D(_DisplacementTex2, _DisplacementTex2_ST * i.texcoord.xy + (_DisplacementTex2_ST.zw * (_WaveSpeed * time)));
 
                 // Converting the RGB to Luminance (amount of percieved light)
-                float luminance = (0.2126 * col.x) + (0.7152 * col.y) + (0.0722 * col.z);
+                float luminance1 = (0.2126 * col1.x) + (0.7152 * col1.y) + (0.0722 * col1.z);
+                float luminance2 = (0.2126 * col2.x) + (0.7152 * col2.y) + (0.0722 * col2.z);
 
                 // Getting the amount of emissivity based on color
-                float percievedEmissivity = (luminance) * 0.15 + 0.84;
+                float percievedEmissivity1 = (luminance1) * 0.15 + 0.84;
+                float percievedEmissivity2 = (luminance2) * 0.15 + 0.84;
 
                 // Blending material emissivity with color emissivity
-                float finalEmissivity = _MaterialEmissivity * _EmissivityBlendFactor + (1.0 - _EmissivityBlendFactor) * percievedEmissivity;
+                float finalEmissivity1 = _MaterialEmissivity * _EmissivityBlendFactor + (1.0 - _EmissivityBlendFactor) * percievedEmissivity1;
+                float finalEmissivity2 = _MaterialEmissivity * _EmissivityBlendFactor + (1.0 - _EmissivityBlendFactor) * percievedEmissivity2;
 
                 // Calculating amount of energy radiated with the Stefan Bolztmann constant
-                float radiation = finalEmissivity * _StefanBolztmannConstant * (_MaterialTemperature * _MaterialTemperature * _MaterialTemperature * _MaterialTemperature);
+                float radiation1 = finalEmissivity1 * _StefanBolztmannConstant * (_MaterialTemperature * _MaterialTemperature * _MaterialTemperature * _MaterialTemperature);
+                float radiation2 = finalEmissivity2 * _StefanBolztmannConstant * (_MaterialTemperature * _MaterialTemperature * _MaterialTemperature * _MaterialTemperature);
 
                 // Capping the values to a 0 - 1 range
-                float mappedRadiation = (radiation * _Gain) + _Level;
+                float mappedRadiation1 = (radiation1 * _Gain) + _Level;
+                float mappedRadiation2 = (radiation2 * _Gain) + _Level;
 
-                return mappedRadiation;
+                float finalMappedRadiation = mappedRadiation1 * _DisplacementBlend + (1.0 - _DisplacementBlend) * mappedRadiation2;
+
+                return finalMappedRadiation;
             }
 
             ENDCG
