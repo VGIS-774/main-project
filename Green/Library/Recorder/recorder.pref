@@ -35,20 +35,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
   m_Name: Movie
   m_EditorClassIdentifier: 
-  enabled: 1
-  take: 23
+  enabled: 0
+  take: 29
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
-      m_Root: 5
+      m_Root: 0
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: /Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main_project/unity_video
     m_FileName: movie_<Take>
-  outputFormat: 0
-  videoBitRateMode: 2
+  outputFormat: 1
+  videoBitRateMode: 1
   captureAlpha: 0
-  containerFormatSelected: 0
+  containerFormatSelected: 1
   encoderSelected: 0
   encoderPresetSelected: 0
   encoderPresetSelectedName: 
@@ -63,7 +63,7 @@ MonoBehaviour:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
         imageHeight: 0
-        maxSupportedHeight: 2160
+        maxSupportedHeight: 4320
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
