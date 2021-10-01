@@ -57,8 +57,6 @@
      <Compile Include="Assets\Scripts\tintComputeScript.cs" />
      <Compile Include="Assets\Scripts\Movie Recorder Sample\MovieRecorderExample.cs" />
      <Compile Include="Assets\Scripts\cameraPostPocess.cs" />
-     <Compile Include="Assets\Scripts\SuperBlur.cs" />
-     <Compile Include="Assets\Scripts\SuperBlurBase.cs" />
      <Compile Include="Assets\Scripts\blurComputeScript.cs" />
      <None Include="Assets\Materials\Shaders\SimpleUnlitColor.shader" />
      <None Include="Assets\Materials\Shaders\ThermalShader.shader" />
