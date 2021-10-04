@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-09-28T14:29:16Z"
+      "LastWriteTime": "2021-10-01T10:07:18Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -14,20 +14,16 @@
       "LastWriteTime": "2021-09-05T07:39:48Z"
     },
     {
-      "FullName": "Unity.Perception.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-09-28T14:29:21Z"
+      "FullName": "Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-10-01T10:07:18Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-09-05T07:39:53Z"
     },
     {
-      "FullName": "Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-09-28T14:29:19Z"
-    },
-    {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-09-28T14:29:17Z"
+      "LastWriteTime": "2021-10-01T10:07:18Z"
     },
     {
       "FullName": "Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null",
@@ -36,6 +32,10 @@
     {
       "FullName": "System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
       "LastWriteTime": "2021-09-05T07:39:53Z"
+    },
+    {
+      "FullName": "Unity.Perception.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-10-01T10:07:18Z"
     }
   ],
   "Functions": [
@@ -60,87 +60,13 @@
       ]
     },
     {
-      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.Randomization.Randomizers.Utilities.PoissonDiskSampling/SampleJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "d8a24f422ba5ef7a4765040eb48b007e",
-      "LinkName": "FDF02F85C38BCE1E",
-      "AssemblyDependencyIndices": [
-        2,
-        3,
-        4,
-        1,
-        5,
-        6,
-        0,
-        7,
-        8
-      ]
-    },
-    {
-      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.Randomization.Randomizers.Utilities.PoissonDiskSampling/CropJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "bea9769faef5ce09cdf27c8b551077d5",
-      "LinkName": "0DB8871B1F118A6F",
-      "AssemblyDependencyIndices": [
-        2,
-        3,
-        4,
-        1,
-        6,
-        5,
-        0,
-        7,
-        8
-      ]
-    },
-    {
-      "FullName": "System.Int32 Unity.Collections.AllocatorManager/StackAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "867b3e39809fbb23745aaf7433ae486a",
-      "LinkName": "31D71C750A9E4345",
-      "AssemblyDependencyIndices": [
-        5,
-        1
-      ]
-    },
-    {
-      "FullName": "System.Int32 Unity.Collections.AllocatorManager/SlabAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "feb23a765458b73e8d463c1602a466e3",
-      "LinkName": "8CC3C64CA4A3FEDE",
-      "AssemblyDependencyIndices": [
-        5,
-        1,
-        2,
-        4,
-        6
-      ]
-    },
-    {
-      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.GroundTruth.RenderedObjectInfoGenerator/ComputeHistogramPerRowJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "0ac6f65e6c8843421e8ad4d0482d9f69",
-      "LinkName": "20898709E1C23946",
-      "AssemblyDependencyIndices": [
-        2,
-        3,
-        4,
-        1,
-        5,
-        6,
-        0,
-        7,
-        8
-      ]
-    },
-    {
       "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Collections.NativeHashMapDisposeJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
       "ModuleHash": "4cf51a0a342d3c6d34c22f89aa15aa18",
       "LinkName": "ABD883C7C90AFA00",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -152,13 +78,36 @@
       "LinkName": "352B6D5D03F8F621",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1,
-        6,
+        5,
         0,
-        7,
-        8
+        6,
+        7
+      ]
+    },
+    {
+      "FullName": "System.Int32 Unity.Collections.AllocatorManager/StackAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "867b3e39809fbb23745aaf7433ae486a",
+      "LinkName": "31D71C750A9E4345",
+      "AssemblyDependencyIndices": [
+        3,
+        1
+      ]
+    },
+    {
+      "FullName": "System.Int32 Unity.Collections.AllocatorManager/SlabAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "feb23a765458b73e8d463c1602a466e3",
+      "LinkName": "8CC3C64CA4A3FEDE",
+      "AssemblyDependencyIndices": [
+        3,
+        1,
+        2,
+        4,
+        5
       ]
     },
     {
@@ -168,7 +117,7 @@
       "LinkName": "8F02018D2DAA4F36",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -180,7 +129,7 @@
       "LinkName": "0AFB48C3B9CA6ECF",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -192,13 +141,13 @@
       "LinkName": "5AAE3265C3BCB248",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1,
-        6,
+        5,
         0,
-        7,
-        8
+        6,
+        7
       ]
     },
     {
@@ -208,7 +157,7 @@
       "LinkName": "846F65225A066FD6",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -220,7 +169,7 @@
       "LinkName": "1F3827F16D435181",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -232,7 +181,7 @@
       "LinkName": "A8134E26EAC44A70",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -244,7 +193,7 @@
       "LinkName": "18F4EDFD51FD6159",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
       ]
@@ -256,9 +205,60 @@
       "LinkName": "EC65C6FB1FDE45E6",
       "AssemblyDependencyIndices": [
         2,
-        5,
+        3,
         4,
         1
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.Randomization.Randomizers.Utilities.PoissonDiskSampling/SampleJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "d8a24f422ba5ef7a4765040eb48b007e",
+      "LinkName": "FDF02F85C38BCE1E",
+      "AssemblyDependencyIndices": [
+        2,
+        8,
+        4,
+        1,
+        3,
+        5,
+        0,
+        6,
+        7
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.Randomization.Randomizers.Utilities.PoissonDiskSampling/CropJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "bea9769faef5ce09cdf27c8b551077d5",
+      "LinkName": "0DB8871B1F118A6F",
+      "AssemblyDependencyIndices": [
+        2,
+        8,
+        4,
+        1,
+        5,
+        3,
+        0,
+        6,
+        7
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<UnityEngine.Perception.GroundTruth.RenderedObjectInfoGenerator/ComputeHistogramPerRowJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "0ac6f65e6c8843421e8ad4d0482d9f69",
+      "LinkName": "20898709E1C23946",
+      "AssemblyDependencyIndices": [
+        2,
+        8,
+        4,
+        1,
+        3,
+        5,
+        0,
+        6,
+        7
       ]
     }
   ]

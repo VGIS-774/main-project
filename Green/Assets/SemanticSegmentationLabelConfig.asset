@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: SemanticSegmentationLabelConfig
   m_EditorClassIdentifier: 
   m_LabelEntries:
-  - label: Douglas@Walking
+  - label: Ch06_nonPBR@Breathing Idle
     color: {r: 0, g: 0, b: 1, a: 1}
-  - label: Ch01_nonPBR@Kettlebell Swing
+  - label: Ch13_nonPBR@Breathing Idle
     color: {r: 0, g: 1, b: 0, a: 1}
-  - label: test
+  - label: Douglas@Breathing Idle
     color: {r: 1, g: 0, b: 0, a: 1}
-  - label: test2
+  - label: remy@Breathing Idle
     color: {r: 1, g: 1, b: 1, a: 1}
+  - label: shae@Breathing Idle
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

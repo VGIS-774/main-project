@@ -18,104 +18,104 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main_project/Green
+/Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main-project/Green
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56618
-Successfully changed project path to: /Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main_project/Green
-/Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main_project/Green
+58597
+Successfully changed project path to: /Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main-project/Green
+/Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main-project/Green
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 335.18 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 103.76 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main_project/Green/Assets
+[Subsystems] Discovering subsystems at path /Users/bastianpetersson/Documents/Learning/VGIS - Master/Project/main-project/Green/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-28 10:57:07.166 Unity[62895:18435783] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-09-28 10:57:07.167 Unity[62895:18435783] Metal devices available: 1
-2021-09-28 10:57:07.167 Unity[62895:18435783] 0: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-09-28 10:57:07.167 Unity[62895:18435783] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+2021-10-03 11:56:53.743 Unity[2210:408413] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-10-03 11:56:53.743 Unity[2210:408413] Metal devices available: 1
+2021-10-03 11:56:53.743 Unity[2210:408413] 0: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-10-03 11:56:53.743 Unity[2210:408413] Using device Intel(R) Iris(TM) Graphics 550 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56895
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56210
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002107 seconds.
+Registered in 0.001925 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 86.54 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 75.74 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.154 seconds
+- Completed reload, in  3.084 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5155ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (3084ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (424ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012501 seconds.
+Registered in 0.015889 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 63.56 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 78.35 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.307 seconds
+- Completed reload, in  4.987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4310ms)
-		BeginReloadAssembly (304ms)
+	ReloadAssembly (4989ms)
+		BeginReloadAssembly (449ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (20ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (3882ms)
-			LoadAssemblies (231ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (4412ms)
+			LoadAssemblies (567ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (610ms)
+			SetupTypeCache (700ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2765ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (2830ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (2355ms)
-				ProcessInitializeOnLoadMethodAttributes (165ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (2442ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000897 seconds.
+Validating Project structure ... 0.007779 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001296 seconds.
+Upgrading shader files ...0.010401 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.95 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 232.2 MB.
-System memory in use after: 231.3 MB.
+System memory in use before: 230.3 MB.
+System memory in use after: 229.3 MB.
 
 Unloading 163 unused Assets to reduce memory usage. Loaded Objects now: 2879.
-Total: 5.730079 ms (FindLiveObjects: 0.448398 ms CreateObjectMapping: 0.174779 ms MarkObjects: 4.408308 ms  DeleteObjects: 0.696323 ms)
+Total: 10.744602 ms (FindLiveObjects: 0.635477 ms CreateObjectMapping: 0.226527 ms MarkObjects: 8.693532 ms  DeleteObjects: 1.187301 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,16 +150,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/IdLabelConfig.asset
-  artifactKey: Guid(b742d2e9f2ad84d21a254923e990fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IdLabelConfig.asset using Guid(b742d2e9f2ad84d21a254923e990fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da3ca9d20db22155d7c567c24732362') in 1.189341 seconds 
-  Import took 1.195864 seconds .
+  path: Assets/Scenes/new_1.unity
+  artifactKey: Guid(6c9258007ee4c4111a323facc28fe934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new_1.unity using Guid(6c9258007ee4c4111a323facc28fe934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f559b137ee4491c5373a8eadce943d8') in 0.024390 seconds 
+  Import took 0.049117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 201.433309 seconds.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710e923fe15a24e5d8ac103b4d8ff828') in 0.001988 seconds 
+  Import took 0.012821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.788008 seconds.
+  path: Assets/IdLabelConfig.asset
+  artifactKey: Guid(b742d2e9f2ad84d21a254923e990fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdLabelConfig.asset using Guid(b742d2e9f2ad84d21a254923e990fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be5387923d0ec40a22ba1e0247dd8a3') in 1.344246 seconds 
+  Import took 1.353214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006703 seconds.
   path: Assets/SemanticSegmentationLabelConfig.asset
   artifactKey: Guid(7dcd5dbcc04554344902d28c893e18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SemanticSegmentationLabelConfig.asset using Guid(7dcd5dbcc04554344902d28c893e18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d8f7713efa09db858f00091ecb586') in 0.039984 seconds 
-  Import took 0.235618 seconds .
+Start importing Assets/SemanticSegmentationLabelConfig.asset using Guid(7dcd5dbcc04554344902d28c893e18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302cd58873eace5702ca34feecdd9c7e') in 0.009275 seconds 
+  Import took 0.018498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.632354 seconds.
+  path: Assets/Materials/20210213_clip_25_1123_img_5.mat
+  artifactKey: Guid(d68d9d5d6e67641d4b37243891f7a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/20210213_clip_25_1123_img_5.mat using Guid(d68d9d5d6e67641d4b37243891f7a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f16048cc98cf9cc6f64b2870954e44f') in 0.758848 seconds 
+  Import took 0.771266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.621170 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_001.png
+  artifactKey: Guid(c5fa27302940f48e9bb1e797be75188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_001.png using Guid(c5fa27302940f48e9bb1e797be75188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00bdcb5ae8aa05f560a3c414326e2e4') in 1.748612 seconds 
+  Import took 1.755512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006146 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_004.png
+  artifactKey: Guid(223692e0f8068475d9cc77f623c7513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_004.png using Guid(223692e0f8068475d9cc77f623c7513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feba330921b7b5ebff22146828f3da48') in 0.040665 seconds 
+  Import took 0.052190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_003.png
+  artifactKey: Guid(5cab9f52f5f944de3af664fc9282ec1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_003.png using Guid(5cab9f52f5f944de3af664fc9282ec1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b37df10ea5b80cf5df5c2984e258e0') in 0.027441 seconds 
+  Import took 0.043967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_005.png
+  artifactKey: Guid(582167229c4464904b984ea52b606533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_005.png using Guid(582167229c4464904b984ea52b606533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100fd27af5a9db011af9a6f2f13a04f7') in 0.035263 seconds 
+  Import took 0.048684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002366 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_002.png
+  artifactKey: Guid(b1211143a56564ac598bbd77d6db88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_002.png using Guid(b1211143a56564ac598bbd77d6db88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40371ef589eb56ca025d67a06371d694') in 0.042100 seconds 
+  Import took 0.053038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046660 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_005.png
+  artifactKey: Guid(582167229c4464904b984ea52b606533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_005.png using Guid(582167229c4464904b984ea52b606533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100fd27af5a9db011af9a6f2f13a04f7') in 0.013769 seconds 
+  Import took 0.022862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654822 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_006.png
+  artifactKey: Guid(836a75335acc647bd820ecd4225b1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_006.png using Guid(836a75335acc647bd820ecd4225b1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd955ea0036d7f17b1283526ab6e966') in 0.013876 seconds 
+  Import took 0.020785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_008.png
+  artifactKey: Guid(312cf8f0cbf8a44e2b6dd77cfd9e504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_008.png using Guid(312cf8f0cbf8a44e2b6dd77cfd9e504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0419e19d8d36cfb4b80a22a733dbfa40') in 0.036377 seconds 
+  Import took 0.043127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_006.png
+  artifactKey: Guid(836a75335acc647bd820ecd4225b1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_006.png using Guid(836a75335acc647bd820ecd4225b1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd955ea0036d7f17b1283526ab6e966') in 0.010109 seconds 
+  Import took 0.014909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_009.png
+  artifactKey: Guid(41f74a2e5ecb646c9bc6ee114be7a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_009.png using Guid(41f74a2e5ecb646c9bc6ee114be7a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4574bc8b47a5893588a6c4d7a8c10e48') in 0.011903 seconds 
+  Import took 0.018801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_007.png
+  artifactKey: Guid(e6715946991c74a22bd7b45eb6e7ed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Anjou/Anjou_007.png using Guid(e6715946991c74a22bd7b45eb6e7ed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f983a04c539b812fc2b23398c8e6b6c') in 0.011952 seconds 
+  Import took 0.017914 seconds .
 

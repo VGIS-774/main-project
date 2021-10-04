@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: IdLabelConfig
   m_EditorClassIdentifier: 
   m_LabelEntries:
-  - label: Douglas@Walking
+  - label: Ch06_nonPBR@Breathing Idle
     id: 1
-  - label: Ch01_nonPBR@Kettlebell Swing
+  - label: Ch13_nonPBR@Breathing Idle
     id: 2
-  - label: test
+  - label: Douglas@Breathing Idle
     id: 3
-  - label: test2
+  - label: remy@Breathing Idle
     id: 4
+  - label: shae@Breathing Idle
+    id: 5
   autoAssignIds: 1
   startingLabelId: 1
