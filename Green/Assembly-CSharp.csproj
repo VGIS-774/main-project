@@ -47,14 +47,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\StructuredBuffer.cs" />
+     <Compile Include="Assets\Scripts\CameraPersistence.cs" />
+     <Compile Include="Assets\Scripts\CameraRandomNoise.cs" />
+     <Compile Include="Assets\Scripts\CameraGaussian.cs" />
+     <Compile Include="Assets\Scripts\QuaternionFromAngle.cs" />
      <Compile Include="Assets\Scripts\tintComputeScript.cs" />
      <Compile Include="Assets\Scripts\MovePerson.cs" />
      <Compile Include="Assets\Scripts\Movie Recorder Sample\MovieRecorderExample.cs" />
      <Compile Include="Assets\Scripts\MoveBall.cs" />
-     <None Include="Assets\Materials\SimpleUnlitColor.shader" />
-     <None Include="Assets\Materials\ThermalShader.shader" />
-     <None Include="Assets\Materials\tintTexture.compute" />
-     <None Include="Assets\Materials\VectorDisplacement.shader" />
+     <None Include="Assets\Materials\Shaders\SimpleUnlitColor.shader" />
+     <None Include="Assets\Materials\Shaders\randomNoise.shader" />
+     <None Include="Assets\Materials\Shaders\ThermalShader.shader" />
+     <None Include="Assets\Materials\Shaders\tintTexture.compute" />
+     <None Include="Assets\Materials\Shaders\structuredBuffer.shader" />
+     <None Include="Assets\Materials\Shaders\Persistence.shader" />
+     <None Include="Assets\Materials\Shaders\waterThermalShader.shader" />
+     <None Include="Assets\Materials\Shaders\distortionPostProcess.shader" />
+     <None Include="Assets\Materials\Shaders\gaussianBlur.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

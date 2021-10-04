@@ -1,6 +1,6 @@
 Shader "Hidden/Random Noise" {
     Properties{
-        _MainTex("Base (RGB)", 2D) = "white" {}
+        [HideInInspector]  _MainTex("Base (RGB)", 2D) = "white" {}
         _Strenght("Amount of noise", Range(0.0, 1.0)) = 0.0
     }
         SubShader{
@@ -48,8 +48,8 @@ Shader "Hidden/Random Noise" {
                 {
                     float4 color = tex2D(_MainTex, UnityStereoScreenSpaceUVAdjust(i.texcoord, _MainTex_ST));
                     float randomValue = random(i.texcoord * _Time.y);
-                    float finalNoise = randomValue * _Strenght;
-                    return color + finalNoise;
+                    float finalNoise = lerp(color, randomValue, _Strenght);
+                    return finalNoise;
                 }
                 ENDCG
             }

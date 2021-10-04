@@ -4,16 +4,19 @@ Shader "Custom/Water Thermal"
     {
         _DisplacementTex1("First Displacement Texture", 2D) = "white" {}
         _DisplacementTex2("Second Displacement Texture", 2D) = "white" {}
-        [Toggle] _isMoving("is Moving", Float) = 0
-        _WaveSpeed("Speed of water waves", Range(0.0, 1.0)) = 0.5
+
+        [Space(10)] [Toggle] _isMoving("Moving", Float) = 0
+
+        [Header(Wave Properties)][Space(10)] _WaveSpeed("Speed of water waves", Range(0.0, 1.0)) = 0.5
         _Displacement("Displacement", Float) = 1.0
         _DisplacementBlend("Displacement Blending", Range(0.0, 1.0)) = 0.5
 
-        _MaterialEmissivity("Emissivity", Range(0.0, 1.0)) = 0.95
+        [Header(Thermal Properties)][Space(10)] _MaterialEmissivity("Emissivity", Range(0.0, 1.0)) = 0.95
         _EmissivityBlendFactor("Blend factor", Range(0.0, 1.0)) = 0.75
-        _StefanBolztmannConstant("Stefan-Bolztmann's Constant", Float) = 0.000000056704//5.6704E-08
+        _StefanBolztmannConstant("Stefan-Bolztmann's Constant", Float) = 0.000000056704
         _MaterialTemperature("Material temperature in K", Float) = 300.0
-        _Level("Level", Float) = 0.0
+
+        [Header(Gain control properties)][Space(10)] _Level("Level", Float) = 0.0
         _Gain("Gain", Float) = 0.0
     }
 

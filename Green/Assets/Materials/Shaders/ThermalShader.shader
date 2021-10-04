@@ -1,26 +1,35 @@
 ﻿Shader "Thermal shader" {
 	Properties{
-		_MainTex("Texture Image", 2D) = "white" {}
-		_MaterialEmissivity("Emissivity", Range(0.0, 1.0)) = 0.95
+		[NoScaleOffset] _MainTex("Texture", 2D) = "white" {}
+		[Toggle(BLACK)] _isHotBlack("Hot black", Float) = 0
+
+		[Header(Thermal Properties)] _MaterialEmissivity("Emissivity", Range(0.0, 1.0)) = 0.95
 		_EmissivityBlendFactor("Blend factor", Range(0.0, 1.0)) = 0.75
-		_StefanBolztmannConstant("Stefan-Bolztmann's Constant", Float) = 0.000000056704//5.6704E-08
 		_MaterialTemperature("Material temperature in K", Float) = 300.0
-		_Level("Level", Float) = 0.0
+
+		[Header(Gain Control)] _Level("Level", Float) = 0.0
 		_Gain("Gain", Float) = 0.0
+	
 	}
 
-	SubShader {
+	SubShader{
 		Pass {
-
+			Name "Thermal Pass"
 			CGPROGRAM
 
 			#pragma vertex vert  
 			#pragma fragment frag 
 
+			#pragma shader_feature BLACK
+
+			#define StefanBolztmannConstant 0.000000056704
+
+			// Thermal properties
 			float _MaterialEmissivity;
 			float _EmissivityBlendFactor;
-			float _StefanBolztmannConstant;
 			float _MaterialTemperature;
+
+			// Gain control properties
 			float _Level;
 			float _Gain;
 
@@ -46,30 +55,35 @@
 				return output;
 			}
 
-			float4 frag(vertexOutput input) : COLOR{
+			float4 frag(vertexOutput input) : COLOR {
 
 				// Looking up the pixel values for a vertex based on the UV map
 				float4 col = tex2D(_MainTex, _MainTex_ST.xy * input.tex.xy + _MainTex_ST.zw);
 
 				// Converting the RGB to Luminance (amount of percieved light)
-				float luminance = (0.2126 * col.x) + (0.7152 * col.y) + (0.0722 * col.z);
+				float luminance = dot(float3(0.2126, 0.7152, 0.0722), col.rgb); //(0.2126 * col.x) + (0.7152 * col.y) + (0.0722 * col.z);
 
 				// Getting the amount of emissivity based on color
 				float percievedEmissivity = (luminance) * 0.15 + 0.84;
 
 				// Blending material emissivity with color emissivity
-				float finalEmissivity = _MaterialEmissivity * _EmissivityBlendFactor + (1.0 - _EmissivityBlendFactor) * percievedEmissivity;
+				float finalEmissivity = _MaterialEmissivity * _EmissivityBlendFactor + (1.0 - _EmissivityBlendFactor) * percievedEmissivity;// lerp(_MaterialEmissivity, percievedEmissivity, _EmissivityBlendFactor);
 
 				// Calculating amount of energy radiated with the Stefan Bolztmann constant
-				float radiation = finalEmissivity * _StefanBolztmannConstant * (_MaterialTemperature * _MaterialTemperature * _MaterialTemperature * _MaterialTemperature);
+				float radiation = finalEmissivity * StefanBolztmannConstant * pow(_MaterialTemperature, 4);
 
-				// Capping the values to a 0 - 1 range
+				// Manual gain control
 				float mappedRadiation = (radiation * _Gain) + _Level;
 
-				return mappedRadiation;
+				#if !BLACK
+					return mappedRadiation;
+				#else
+					mappedRadiation = 1 - mappedRadiation;
+					return mappedRadiation;
+				#endif
 			}
 
-			ENDCG
+		ENDCG
 		}
 	}
 
