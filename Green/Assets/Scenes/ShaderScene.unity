@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 113548060}
   - component: {fileID: 113548059}
   - component: {fileID: 113548062}
+  - component: {fileID: 113548063}
   m_Layer: 6
   m_Name: Unity Camera
   m_TagString: MainCamera
@@ -221,6 +222,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shader: {fileID: 7200000, guid: b852f0d8309f9a9c497a37a15496f50c, type: 3}
   color: {r: 1, g: 0.07075471, b: 0.07075471, a: 1}
+--- !u!114 &113548063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113548058}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8931bbec766895f4e825a42abec5f50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guassianEffect: {fileID: 2100000, guid: 6c2b840f83d7ec341a3a7a31daf0ca06, type: 2}
 --- !u!4 &315521769
 Transform:
   m_ObjectHideFlags: 0
@@ -637,7 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8931bbec766895f4e825a42abec5f50d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6c2b840f83d7ec341a3a7a31daf0ca06, type: 2}
+  guassianEffect: {fileID: 0}
 --- !u!114 &555320011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1107,7 +1121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8931bbec766895f4e825a42abec5f50d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6c2b840f83d7ec341a3a7a31daf0ca06, type: 2}
+  guassianEffect: {fileID: 0}
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
