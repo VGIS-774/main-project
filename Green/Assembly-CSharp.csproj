@@ -52,19 +52,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\cameraPostPocess.cs" />
+     <Compile Include="Assets\Scripts\Camera Post-Process\CameraPersistence.cs" />
+     <Compile Include="Assets\Scripts\Camera Post-Process\CameraRandomNoise.cs" />
+     <Compile Include="Assets\Scripts\Camera Post-Process\CameraGaussian.cs" />
      <Compile Include="Assets\Scripts\blurComputeScript.cs" />
      <Compile Include="Assets\Scripts\tintComputeScript.cs" />
      <Compile Include="Assets\Scripts\MovePerson.cs" />
      <Compile Include="Assets\Scripts\Movie Recorder Sample\MovieRecorderExample.cs" />
      <Compile Include="Assets\Scripts\MoveBall.cs" />
      <None Include="Assets\Materials\Shaders\SimpleUnlitColor.shader" />
+     <None Include="Assets\Materials\Shaders\randomNoise.shader" />
      <None Include="Assets\Materials\Shaders\ThermalShader.shader" />
      <None Include="Assets\Materials\Shaders\tintTexture.compute" />
      <None Include="Assets\Materials\Shaders\gaussianBlur.compute" />
+     <None Include="Assets\Materials\Shaders\Persistence.shader" />
      <None Include="Assets\Materials\Shaders\waterThermalShader.shader" />
-     <None Include="Assets\Materials\Shaders\distortionPostProcess.shader" />
-     <None Include="Assets\Materials\Shaders\randomNoise.shader" />
+     <None Include="Assets\Materials\Shaders\gaussianBlur.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/home/magnus/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
