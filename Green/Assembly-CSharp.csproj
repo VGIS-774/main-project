@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MovePerson.cs" />
-     <Compile Include="Assets\Scripts\MoveBall.cs" />
-     <Compile Include="Assets\Scripts\tintComputeScript.cs" />
-     <Compile Include="Assets\Scripts\Movie Recorder Sample\MovieRecorderExample.cs" />
      <Compile Include="Assets\Scripts\cameraPostPocess.cs" />
      <Compile Include="Assets\Scripts\blurComputeScript.cs" />
+     <Compile Include="Assets\Scripts\tintComputeScript.cs" />
+     <Compile Include="Assets\Scripts\MovePerson.cs" />
+     <Compile Include="Assets\Scripts\Movie Recorder Sample\MovieRecorderExample.cs" />
+     <Compile Include="Assets\Scripts\MoveBall.cs" />
      <None Include="Assets\Materials\Shaders\SimpleUnlitColor.shader" />
      <None Include="Assets\Materials\Shaders\ThermalShader.shader" />
      <None Include="Assets\Materials\Shaders\tintTexture.compute" />
@@ -647,6 +647,9 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Sysroot.Linux_x86_64">
+ <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -655,6 +658,9 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Toolchain.Linux-x86_64">
+ <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -668,17 +674,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Recorder">
- <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Sysroot.Linux_x86_64">
- <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Toolchain.Linux-x86_64">
- <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
- </Reference>
  <Reference Include="Unity.SysrootPackage.Editor">
  <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder">
+ <HintPath>/home/magnus/RiderProjects/main-project/Green/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

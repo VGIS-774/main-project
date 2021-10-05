@@ -28,9 +28,7 @@ void GaussianBlur(uint3 groupID : SV_GroupID, uint3 groupThreadID : SV_GroupThre
         {
             coords.x += i;
             coords.y += j;
-            
             sum += Source[coords.xy];
-
         }
     }
 
