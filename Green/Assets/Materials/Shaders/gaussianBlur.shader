@@ -42,11 +42,6 @@ Shader "Hidden/Gaussian Blur" {
                     float4 position : SV_POSITION;
                 };
 
-                float random(float2 uv)
-                {
-                    return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453123);
-                }
-
                 vertexOutput vertexShader(vertexInput input)
                 {
                     vertexOutput o;
