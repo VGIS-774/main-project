@@ -8,3 +8,5 @@ Green/.idea
 Green/obj
 **/.vsconfig
 **/Assembly-CSharp
+*.sln
+*.csproj
