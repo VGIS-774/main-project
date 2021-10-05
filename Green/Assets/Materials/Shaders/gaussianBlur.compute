@@ -1,0 +1,38 @@
+#pragma kernel GaussianBlur
+
+float4 Color;
+
+Texture2D<float4> Source;
+RWTexture2D<float4> Destination;
+
+[numthreads(8, 8, 1)]
+void GaussianBlur(uint3 groupID : SV_GroupID, uint3 groupThreadID : SV_GroupThreadID, uint groupIndex : SV_GroupIndex, uint3 id : SV_DispatchThreadID)
+{
+    int2 coords = id;
+    int kernelSize = 25;
+    int lowLimit = -2;
+    int upperLimit = 2;
+    
+    int texWidth = 1920;
+    int texHeight = 1080;
+    if (coords.x < kernelSize || coords.x > (texWidth- upperLimit))
+        return; 
+    if (coords.y < kernelSize || coords.y > (texHeight- upperLimit))
+        return;
+    
+
+    float sum = 0;
+    for(int i = lowLimit; i <= upperLimit; ++i)
+    {
+        for(int j = lowLimit; j <= upperLimit; ++j)
+        {
+            coords.x += i;
+            coords.y += j;
+            sum += Source[coords.xy];
+        }
+    }
+
+    float outPixel = sum / kernelSize;
+    
+    Destination[id.xy] = outPixel;
+}
