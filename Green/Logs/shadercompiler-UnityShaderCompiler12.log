@@ -1,0 +1,16 @@
+Base path: '/home/magnus/Unity/Hub/Editor/2020.3.17f1/Editor/Data', plugins path '/home/magnus/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=968 file=/home/magnus/RiderProjects/main-project/Green/Assets/Materials/Shaders/gaussianBlur.compute kernel=GaussianBlur cachingPP=0 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 1 plat 15 at gaussianBlur.compute(11): implicit truncation of vector type
+  error: 2 plat 15 at gaussianBlur.compute(25): cannot convert from 'int' to 'float[1]'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=932 file=/home/magnus/RiderProjects/main-project/Green/Assets/Materials/Shaders/gaussianBlur.compute kernel=GaussianBlur cachingPP=0 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 1 plat 15 at gaussianBlur.compute(11): implicit truncation of vector type
+  error: 1 plat 15 at gaussianBlur.compute(31): implicit truncation of vector type
+ ok=1 outsize=2162
+
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
