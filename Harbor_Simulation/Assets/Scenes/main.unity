@@ -2432,7 +2432,7 @@ MonoBehaviour:
   manualSensorAffectSimulationTiming: 0
   simulationDeltaTime: 0.0166
   framesBetweenCaptures: 0
-  showVisualizations: 0
+  showVisualizations: 1
   references:
     version: 1
     00000000:
@@ -3087,6 +3087,7 @@ MonoBehaviour:
   - id: 0
   - id: 1
   - id: 2
+  - id: 3
   constants:
     randomSeed: 539662031
     totalIterations: 100
@@ -3103,49 +3104,119 @@ MonoBehaviour:
         xPos:
           collapsed: 0
           value:
-            id: 3
+            id: 4
         zPos:
           collapsed: 0
           value:
-            id: 4
+            id: 5
         yPos: 13.05
         xScale:
           collapsed: 0
           value:
-            id: 5
+            id: 6
         yScale:
           collapsed: 0
           value:
-            id: 6
+            id: 7
         zScale:
           collapsed: 0
           value:
-            id: 7
+            id: 8
         mixamoCount:
           collapsed: 0
           value:
-            id: 8
+            id: 9
         rotation:
           collapsed: 0
           x:
-            id: 9
-          y:
             id: 10
-          z:
+          y:
             id: 11
+          z:
+            id: 12
         prefabs:
           collapsed: 0
           probabilities:
-          - 0.33333334
-          - 0.33333334
-          - 0.33333334
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
+          - 0.025
           uniform: 1
           m_Sampler:
-            id: 12
+            id: 13
           m_Categories:
-          - {fileID: 575622919493074496, guid: fa31a0262f93342f3b9e1a59df4b1345, type: 3}
-          - {fileID: 8117549465175302380, guid: 160ec057336f143adb2b27929477adb6, type: 3}
-          - {fileID: 6849848000746044884, guid: 705e4c068cd2049c9b2f5183dbf53af7, type: 3}
+          - {fileID: 3420509448958823687, guid: 8c51a0b1784964575bb43a473702a468, type: 3}
+          - {fileID: 5075848624659141179, guid: be4f6ed6fb2be42eb916128d07e25884, type: 3}
+          - {fileID: 6670419568957661892, guid: 578567a6b5c9a415d8b65705ff8d1369, type: 3}
+          - {fileID: 6345177875224281318, guid: 7f3311b4be2f94a94aae8cff610d8ba1, type: 3}
+          - {fileID: 7584061926266654091, guid: 07bfd29fb594b4f6fa6cf41096383986, type: 3}
+          - {fileID: 8317072405364153356, guid: 6de0bd8c9f84f42e38174f627586a335, type: 3}
+          - {fileID: 3273591365622840173, guid: 6e82ee3c9e20d43768ebcf2b0fa5bf14, type: 3}
+          - {fileID: 1263507723591689359, guid: f12ef0ebc141c4e26adcf18d88d42790, type: 3}
+          - {fileID: 3387377455897537628, guid: 6548cb236a1ff4ac984ca43341cb2725, type: 3}
+          - {fileID: 4010091999981057431, guid: bd698368b071c4594823974e49e504ef, type: 3}
+          - {fileID: 2934160571740958914, guid: 641f4dbaf6d7e4eba8d99f176e3611be, type: 3}
+          - {fileID: 4811281407213980473, guid: ca278c6ece2244c30b8e69d06aa72808, type: 3}
+          - {fileID: 8927097325098544238, guid: e4e567d6a787449fbbba17d4c786c2fc, type: 3}
+          - {fileID: 3711237462514802617, guid: 5adf7f863f3174483b7e213be696ae6e, type: 3}
+          - {fileID: 3577528588865500852, guid: 2f0155f5e989245fda8edb677e094c43, type: 3}
+          - {fileID: 3417833213768387368, guid: 9e55bde81c54f47f59ce04394b00eb26, type: 3}
+          - {fileID: 2469902817928339575, guid: 10e49bda40c7143d0babeeebba011eb9, type: 3}
+          - {fileID: 3550433680623900072, guid: a184c7cad698244e289feb3ddcdbba06, type: 3}
+          - {fileID: 5866169155819034075, guid: 307bc0347fd714c9980199203f4dfb60, type: 3}
+          - {fileID: 515373077662069940, guid: 61afa2a5780cc43a68416bf7a9b391df, type: 3}
+          - {fileID: 5202906584099465952, guid: 87f66b22908114deea2bc7586a9b7ba8, type: 3}
+          - {fileID: 7205534424158385805, guid: 32ad487d673f549eb992cb6e2479624d, type: 3}
+          - {fileID: 1612636570599307768, guid: 102a5e3fa8b5644d8bc589b4d0c1c5c1, type: 3}
+          - {fileID: 3774006497600198762, guid: 659c7f952a008431199724d7b9783629, type: 3}
+          - {fileID: 9208132133733504904, guid: 0793d78e9f2204f3f907a9fd53d5fc5d, type: 3}
+          - {fileID: 7696594673287347607, guid: b4234125808fb4a9c9f015b6904fdac8, type: 3}
+          - {fileID: 7784900777481574939, guid: b59bc0dd8dfea49458b5289bd1845283, type: 3}
+          - {fileID: 6798852875702781075, guid: fed76ad0f02544799ba40683543e7721, type: 3}
+          - {fileID: 7854730325988789792, guid: b3d5c4b26a78948c1a091a6031fd3457, type: 3}
+          - {fileID: 4180876315490830945, guid: a9c038b9f5c9f4d8982883e744d6fe28, type: 3}
+          - {fileID: 104539214701959675, guid: cd2ba94d15b1e44848e45b31a886acd0, type: 3}
+          - {fileID: 4594848499634807838, guid: 8950e45f305a34ee484ecd5de9c271c1, type: 3}
+          - {fileID: 3731421008452822318, guid: d1422d2fbd92940ecb976a00736da2bb, type: 3}
+          - {fileID: 4032144965307946406, guid: 93c6b26ea59074a29bfb59fa598683dc, type: 3}
+          - {fileID: 939670378263201990, guid: 4b951954b5db9460aafd49562b4b0198, type: 3}
+          - {fileID: 4880084097279687343, guid: b05cfec028d8d41b5ac6d2b91919fbcd, type: 3}
+          - {fileID: 5143077268473425983, guid: 7d4b5fedc990a42acb6b2fb766e48a8a, type: 3}
+          - {fileID: 7855142069049971325, guid: c4546f3923bd6470da915f40d74518c0, type: 3}
     00000001:
       type: {class: AnimationRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
@@ -3159,73 +3230,128 @@ MonoBehaviour:
         lightIntensityParameter:
           collapsed: 0
           value:
-            id: 13
+            id: 14
     00000003:
-      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      type: {class: ThermalRandomizer, ns: , asm: Assembly-CSharp}
       data:
-        range:
-          minimum: -100
-          maximum: 60
+        m_Enabled: 1
+        collapsed: 0
+        emissivity:
+          collapsed: 0
+          value:
+            id: 15
+        blendFactor:
+          collapsed: 0
+          value:
+            id: 16
+        materialTemperatureInK:
+          collapsed: 0
+          value:
+            id: 17
+        level:
+          collapsed: 0
+          value:
+            id: 18
+        gain:
+          collapsed: 0
+          value:
+            id: 19
     00000004:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: 0
-          maximum: 30
+          minimum: -80
+          maximum: 70
     00000005:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 25
+    00000006:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0.9
           maximum: 1.1
-    00000006:
+    00000007:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0.8
           maximum: 1.2
-    00000007:
+    00000008:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0.9
           maximum: 1.1
-    00000008:
+    00000009:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
-          maximum: 100
-    00000009:
+          maximum: 200
+    0000000A:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: -5
           maximum: 5
-    0000000A:
+    0000000B:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
           maximum: 360
-    0000000B:
+    0000000C:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: -5
           maximum: 5
-    0000000C:
-      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
-      data:
-        range:
-          minimum: 0
-          maximum: 1
     0000000D:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
           minimum: 0
+          maximum: 1
+    0000000E:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
           maximum: 2
+    0000000F:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0.92
+          maximum: 1
+    00000010:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0.31
+          maximum: 0.31
+    00000011:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 300.5
+          maximum: 300.5
+    00000012:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: -20
+          maximum: -20
+    00000013:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0.05
+          maximum: 0.05
 --- !u!4 &1293152307
 Transform:
   m_ObjectHideFlags: 0

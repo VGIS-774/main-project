@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{52D0481E-2BA9-9C5E-74B6-F30360B1E7A5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MixamoRandomizer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Materials/Shaders/ThermalShader.shader">
     <Files>
+      <File FileName="Assets/Scripts/ThermalRandomizer.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/LightRandomizer.cs" Line="11" Column="5" />
+      <File FileName="Assets/Scripts/ThermalRandomizerTag.cs" Line="24" Column="6" />
+      <File FileName="Assets/Scripts/LightRandomizerTag.cs" Line="2" Column="56" />
       <File FileName="Assets/Scripts/MixamoRandomizer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LightRandomizer.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/LightRandomizerTag.cs" />
+      <File FileName="Assets/Materials/Shaders/ThermalShader.shader" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7694cc81-7ac7-4a91-81e8-a1c547cafc4b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1e4f3de6-e82a-426a-950f-d0d95ff636ba" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
