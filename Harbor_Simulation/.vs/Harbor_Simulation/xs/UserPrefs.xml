@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{52D0481E-2BA9-9C5E-74B6-F30360B1E7A5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Materials/Shaders/ThermalShader.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ThermalRandomizer1.cs">
     <Files>
-      <File FileName="Assets/Scripts/ThermalRandomizer.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/LightRandomizer.cs" Line="11" Column="5" />
-      <File FileName="Assets/Scripts/ThermalRandomizerTag.cs" Line="24" Column="6" />
-      <File FileName="Assets/Scripts/LightRandomizerTag.cs" Line="2" Column="56" />
-      <File FileName="Assets/Scripts/MixamoRandomizer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Materials/Shaders/ThermalShader.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MixamoRandomizer.cs" Line="21" Column="41" />
+      <File FileName="Assets/Scripts/MixamoRandomizer_video.cs" Line="49" Column="9" />
+      <File FileName="Assets/Scripts/AnimationRandomizerVideo.cs" Line="53" Column="27" />
+      <File FileName="Library/PackageCache/com.unity.perception@0.8.0-preview.4/Runtime/Randomization/Randomizers/RandomizerExamples/Randomizers/AnimationRandomizer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ThermalRandomizer.cs" />
+      <File FileName="Assets/Scripts/LightRandomizer.cs" />
+      <File FileName="Assets/Scripts/ThermalRandomizerTag.cs" />
+      <File FileName="Assets/Scripts/LightRandomizerTag.cs" />
+      <File FileName="Assets/Materials/Shaders/ThermalShader.shader" Line="23" Column="32" />
+      <File FileName="Assets/Scripts/ThermalRandomizer1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1e4f3de6-e82a-426a-950f-d0d95ff636ba" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5ced039a-68cf-419e-bdd7-caa8b3691e1c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

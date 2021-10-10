@@ -53,13 +53,16 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ThermalRandomizerTag.cs" />
     <Compile Include="Assets/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/Scripts/LightRandomizerTag.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/MixamoRandomizer.cs" />
     <Compile Include="Assets/Scripts/LightRandomizer.cs" />
     <Compile Include="Assets/Scripts/ThermalRandomizer.cs" />
-    <Compile Include="Assets/Scripts/ThermalRandomizerTag.cs" />
+    <Compile Include="Assets/Scripts/MixamoRandomizer_video.cs" />
+    <Compile Include="Assets/Scripts/AnimationRandomizerVideo.cs" />
+    <Compile Include="Assets/Scripts/ThermalRandomizerVideo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Materials/Shaders/SimpleUnlitColor.shader" />
