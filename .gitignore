@@ -6,6 +6,7 @@ Green/Temp
 Green/UserSettings
 Green/Library
 Green/obj
+Green/UIElementsSchema
 
 # VS project generated folders
 Green/.vs
@@ -22,6 +23,7 @@ Green/.idea
 *.pidb
 *.booproj
 *.vsconfig
+*.xsd
 
 # Unity3D generated meta files
 *.pidb.meta
