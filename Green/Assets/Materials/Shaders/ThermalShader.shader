@@ -1,6 +1,7 @@
 ﻿Shader "Custom/Thermal shader" {
 	Properties{
 		[NoScaleOffset] _MainTex("Texture", 2D) = "white" {}
+		[Toggle(BLACK)] _Black("Black Hot", Float) = 0
 
 		[Header(Blur properties)][Space(10)] _Strenght("Amount of Blur", Range(0.0, 0.1)) = 0.0
 		[KeywordEnum(Low, Medium, High)] _Samples("Sample amount", Float) = 0

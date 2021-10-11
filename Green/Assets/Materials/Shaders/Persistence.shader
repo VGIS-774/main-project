@@ -1,7 +1,7 @@
 Shader "Hidden/Persistence" {
     Properties{
         [HideInInspector] _MainTex("Current frame", 2D) = "white" {}
-        [PerRendererData] _SecondTex("Previous frame", 2D) = "white" {}
+        /*[PerRendererData]*/ _SecondTex("Previous frame", 2D) = "white" {}
         [Space(10)] [Toggle(PERS)] _Pers("Persistence effect", float) = 0
         [Space(10)] _t("t", Range(0.0, 1.0)) = 0.0
         _T("T", Range(0.0, 1.0)) = 0.0
