@@ -42,12 +42,10 @@ float4 frag(vertexOutput input) : COLOR{
 }
 ```
 ## Background layer and foreground layer
-Foreground layer:
-
+### Foreground layer
 ![Foreground](https://user-images.githubusercontent.com/50104866/136943720-eff83ac1-4aee-4b3d-876c-7d820601d953.jpg)
 
-Background layer:
-
+### Background layer
 ![Background](https://user-images.githubusercontent.com/50104866/136943726-ba6ca04a-a5dc-4d18-8fc7-2855a6c78529.jpg)
 
 ## Post-Processing effects
