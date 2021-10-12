@@ -62,14 +62,14 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissivityBlendFactor: 0.319
+    - _EmissivityBlendFactor: 0.051
     - _Gain: 0.05
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Level: -20
-    - _MaterialEmissivity: 0.95
-    - _MaterialTemperature: 300.5
+    - _MaterialEmissivity: 0.96
+    - _MaterialTemperature: 301.43
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
